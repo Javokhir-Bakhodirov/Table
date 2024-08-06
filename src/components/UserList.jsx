@@ -4,7 +4,7 @@ import "./UserList.css";
 const UserList = ({ user }) => {
 	return (
 		<tr>
-			<td>{user.id}</td>
+			<td>{user.id - 6}</td>
 			<td>
 				<img src={user.avatar} alt="avatar" width={36} height={36} />
 			</td>
