@@ -1,0 +1,8 @@
+td > img {
+	object-fit: fill;
+	border-radius: 50%;
+}
+
+a {
+	color: #fff;
+}
